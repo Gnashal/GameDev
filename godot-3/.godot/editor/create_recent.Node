@@ -1,0 +1,13 @@
+res://addons/simplegrasstextured/grass.gd
+Node3D
+Camera3D
+MeshInstance3D
+CharacterBody3D
+CSGSphere3D
+StaticBody3D
+WorldEnvironment
+DirectionalLight3D
+CSGBox3D
+CSGCombiner3D
+CSGCylinder3D
+RigidBody3D

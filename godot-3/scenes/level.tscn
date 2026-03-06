@@ -1,0 +1,52 @@
+[gd_scene format=3 uid="uid://bx0lipii8ajkc"]
+
+[ext_resource type="PackedScene" uid="uid://wrh7djuaqlly" path="res://scenes/map.tscn" id="2_w7c3h"]
+[ext_resource type="PackedScene" uid="uid://2da5pnlsr32r" path="res://scenes/FirstPersonPlayer.tscn" id="2_w8frs"]
+
+[sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_w7c3h"]
+sky_horizon_color = Color(0.82067454, 0.8255671, 0.8356817, 1)
+ground_bottom_color = Color(0.35850385, 0.30907407, 0.2535322, 1)
+ground_horizon_color = Color(0.82067454, 0.8255671, 0.8356817, 1)
+
+[sub_resource type="Sky" id="Sky_w8frs"]
+sky_material = SubResource("ProceduralSkyMaterial_w7c3h")
+
+[sub_resource type="Environment" id="Environment_mx8sn"]
+background_mode = 2
+sky = SubResource("Sky_w8frs")
+tonemap_mode = 2
+sdfgi_enabled = true
+glow_enabled = true
+volumetric_fog_enabled = true
+volumetric_fog_albedo = Color(0.40392157, 0.24705882, 0.21568628, 1)
+volumetric_fog_emission = Color(0.27392006, 0.15866598, 0.22902322, 1)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_w7c3h"]
+albedo_color = Color(1, 0.419608, 0.262745, 1)
+emission_enabled = true
+emission = Color(1, 0.258824, 0.192157, 1)
+emission_energy_multiplier = 4.0
+
+[node name="Game" type="Node3D" unique_id=2016834188]
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="." unique_id=441411025]
+environment = SubResource("Environment_mx8sn")
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="." unique_id=1708152446]
+transform = Transform3D(-0.66464657, -0.29978418, 0.68437874, 0.14752632, 0.84528774, 0.5135412, -0.7324485, 0.44228736, -0.5175915, 0, 0, -1.2003994)
+light_color = Color(0.75686276, 0.79607844, 1, 1)
+light_energy = 0.7
+shadow_enabled = true
+
+[node name="Map1" parent="." unique_id=1860341615 instance=ExtResource("2_w7c3h")]
+
+[node name="Player" parent="." unique_id=802247324 instance=ExtResource("2_w8frs")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 3.241771, 3.708652)
+
+[node name="Moon" type="CSGSphere3D" parent="." unique_id=779966211]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 937, 717, -683)
+material_override = SubResource("StandardMaterial3D_w7c3h")
+cast_shadow = 0
+radius = 80.0
+radial_segments = 100
+rings = 12
