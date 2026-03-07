@@ -1,0 +1,796 @@
+[gd_scene format=3 uid="uid://6rx0gt2ilrs8"]
+
+[ext_resource type="PackedScene" uid="uid://d1mobuhmbvlfj" path="res://assets/animations/Zombie.glb" id="1_blicy"]
+[ext_resource type="Script" uid="uid://cl2q2clwyc8py" path="res://scenes/zombie.gd" id="2_t3ikf"]
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_blicy"]
+radius = 0.079589844
+height = 0.2657318
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_yaogc"]
+radius = 0.022949219
+height = 0.25170898
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_siap5"]
+radius = 0.01171875
+height = 0.10168457
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_e4xys"]
+radius = 0.016113281
+height = 0.12525916
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_m83i4"]
+radius = 0.017578125
+height = 0.15508634
+
+[sub_resource type="SphereShape3D" id="SphereShape3D_v58xl"]
+radius = 0.13
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_dta2r"]
+radius = 0.025878906
+height = 0.19376004
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_sl83e"]
+radius = 0.03125
+height = 0.27894557
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_uff4m"]
+radius = 0.029296875
+height = 0.2935226
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_ul75q"]
+radius = 0.05126953
+height = 0.15002441
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_qoau2"]
+radius = 0.020996094
+height = 0.19080424
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_f07ra"]
+radius = 0.010253906
+height = 0.13982168
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_8w532"]
+radius = 0.009765625
+height = 0.15880388
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_5nt0b"]
+radius = 0.0078125
+height = 0.17512426
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_0pu7s"]
+radius = 0.0068359375
+height = 0.09841813
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_w4koy"]
+radius = 0.030761719
+height = 0.18512833
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_8nvl8"]
+radius = 0.032714844
+height = 0.2733028
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_8320b"]
+radius = 0.026367188
+height = 0.27761972
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_00x83"]
+size = Vector3(0.043884277, 0.103530884, 0.1765747)
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_kppw2"]
+radius = 0.009277344
+height = 0.14022702
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_jli3d"]
+radius = 0.011230469
+height = 0.13680178
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_s5kvr"]
+radius = 0.013183594
+height = 0.14952418
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_ta48h"]
+radius = 0.014160156
+height = 0.14789718
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_xttbf"]
+radius = 0.0107421875
+height = 0.10275492
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_3id8x"]
+radius = 0.04248047
+height = 0.45132565
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_hg0r3"]
+radius = 0.057128906
+height = 0.5272417
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_rk1fl"]
+radius = 0.020996094
+height = 0.14279473
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_blicy"]
+size = Vector3(0.034484386, 0.12670898, 0.02148056)
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_o357f"]
+radius = 0.055664063
+height = 0.41687155
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_p7vx4"]
+radius = 0.056640625
+height = 0.4973234
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_6s3qk"]
+radius = 0.028320313
+height = 0.15845919
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_t3ikf"]
+size = Vector3(0.051282883, 0.14916992, 0.03161621)
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_t3ikf"]
+radius = 0.39453125
+height = 1.8304443
+
+[node name="Zombie" unique_id=366835681 instance=ExtResource("1_blicy")]
+script = ExtResource("2_t3ikf")
+
+[node name="Skeleton3D" parent="Zombie" parent_id_path=PackedInt32Array(1891348039) index="0" unique_id=472041527]
+bones/0/position = Vector3(11.475924, -5.488734, -95.95059)
+bones/0/rotation = Quaternion(-0.58448076, -0.10551709, 0.09973498, 0.79831153)
+bones/1/position = Vector3(1.75987e-05, 11.006608, 0.10789222)
+bones/1/rotation = Quaternion(0.10326824, -0.034697615, -0.008161124, 0.99401474)
+bones/2/position = Vector3(-2.0861626e-07, 11.269945, -5.565747e-06)
+bones/2/rotation = Quaternion(0.08252582, -0.023464037, 0.0018404898, 0.99631095)
+bones/3/position = Vector3(1.1920929e-06, 10.815956, -1.1737896e-05)
+bones/3/rotation = Quaternion(0.07428781, -0.0214815, 0.0014928512, 0.99700433)
+bones/4/position = Vector3(-9.536743e-07, 28.836645, -0.55723894)
+bones/4/rotation = Quaternion(-0.025622876, 0.008211315, -0.016635222, 0.9994996)
+bones/5/rotation = Quaternion(-0.44324443, 0.026047658, 0.029984245, 0.89552045)
+bones/9/position = Vector3(-2.1457672e-06, -2.1672552, 3.8525808)
+bones/10/position = Vector3(-1.4305115e-06, 2.0805817, 5.544513)
+bones/11/rotation = Quaternion(-0.55079585, -0.44601205, 0.63862115, -0.29976705)
+bones/12/position = Vector3(-9.894561e-06, 18.133848, 2.960518e-06)
+bones/12/rotation = Quaternion(0.22452897, -0.024063537, 0.28185794, 0.932504)
+bones/13/position = Vector3(5.567238e-06, 26.27124, -4.7302747e-06)
+bones/13/rotation = Quaternion(7.2463764e-09, 8.1516326e-08, 0.6579611, 0.753052)
+bones/14/position = Vector3(3.2243038e-06, 28.296942, -3.0427855e-06)
+bones/14/rotation = Quaternion(-0.27025965, 0.2991291, 0.1123421, 0.90821844)
+bones/15/position = Vector3(-4.042036, 6.380458, 2.663665)
+bones/15/rotation = Quaternion(0.16845903, 0.06707823, 0.22234534, 0.9579586)
+bones/16/position = Vector3(5.722055e-06, 4.3332796, -6.5564886e-06)
+bones/16/rotation = Quaternion(0.011748708, -4.676608e-07, -0.07690614, 0.99696916)
+bones/17/position = Vector3(1.4305074e-06, 3.3635528, 4.4703684e-06)
+bones/17/rotation = Quaternion(-0.021075375, 2.5771757e-07, -0.016059088, 0.9996489)
+bones/18/position = Vector3(-4.7683716e-07, 5.4413686, -3.993511e-06)
+bones/19/position = Vector3(-3.4908082, 17.364151, -0.64550936)
+bones/19/rotation = Quaternion(0.047656808, 9.16754e-06, -0.0055500153, 0.9988484)
+bones/20/position = Vector3(-1.0047821e-06, 5.282559, 1.1455613e-06)
+bones/20/rotation = Quaternion(0.046731528, 3.911525e-08, -0.005635866, 0.9988916)
+bones/21/position = Vector3(3.8343137e-06, 2.9205155, -7.992762e-06)
+bones/21/rotation = Quaternion(0.023372665, -4.8154725e-08, -0.0028181423, 0.99972284)
+bones/22/position = Vector3(3.34795e-07, 5.2016807, 9.00777e-06)
+bones/23/position = Vector3(-0.0031074253, 18.14036, 0.033536457)
+bones/23/rotation = Quaternion(0.047517627, 9.1720085e-06, -0.0055328635, 0.9988551)
+bones/24/position = Vector3(3.3444526e-06, 3.8583198, -7.4791114e-07)
+bones/24/rotation = Quaternion(0.046870824, 5.576691e-08, -0.005652402, 0.998885)
+bones/25/position = Vector3(6.441338e-07, 6.062983, -1.5727896e-06)
+bones/25/rotation = Quaternion(0.023371888, 1.248573e-07, -0.0028185514, 0.9997229)
+bones/26/position = Vector3(4.716472e-06, 4.743466, 1.5246333e-06)
+bones/27/position = Vector3(3.7065415, 17.51662, -0.548674)
+bones/27/rotation = Quaternion(0.047656793, 9.204049e-06, -0.005549611, 0.9988484)
+bones/28/position = Vector3(1.0183148e-06, 5.1515775, 2.6688995e-06)
+bones/28/rotation = Quaternion(0.046731755, -1.5558696e-08, -0.0056351656, 0.9988916)
+bones/29/position = Vector3(-6.916087e-07, 5.03029, -6.6287867e-06)
+bones/29/rotation = Quaternion(0.023372354, 1.583869e-07, -0.0028180932, 0.9997229)
+bones/30/position = Vector3(8.2925953e-07, 3.8399253, -1.15611865e-05)
+bones/31/position = Vector3(7.3905873, 17.046247, -0.42236063)
+bones/31/rotation = Quaternion(0.043182775, 0.0017198252, -0.040879, 0.998229)
+bones/32/position = Vector3(3.8580883e-06, 3.1342518, -1.0786508e-05)
+bones/32/rotation = Quaternion(0.051145397, 0.0016780075, 0.029702466, 0.99824804)
+bones/33/position = Vector3(2.3029772e-06, 3.2632623, -6.7252286e-06)
+bones/33/rotation = Quaternion(0.023372568, -1.14005836e-07, -0.002818549, 0.99972284)
+bones/34/position = Vector3(2.2974273e-06, 2.8491824, 1.572138e-06)
+bones/35/rotation = Quaternion(0.5611396, -0.4469648, 0.62451255, 0.30875376)
+bones/36/position = Vector3(1.1278132e-05, 18.133932, 8.128272e-06)
+bones/36/rotation = Quaternion(0.3613278, -0.12500854, -0.39071682, 0.83735025)
+bones/37/position = Vector3(-1.1404113e-06, 26.271286, -9.4055304e-07)
+bones/37/rotation = Quaternion(-7.1739784e-08, 1.2858663e-08, -0.7132431, 0.7009167)
+bones/38/position = Vector3(-2.0960233e-06, 28.296888, -2.0833504e-06)
+bones/38/rotation = Quaternion(-0.052211966, -0.07816743, -0.0064809304, 0.995551)
+bones/39/rotation = Quaternion(0.16692251, -0.06851584, -0.26336974, 0.9476703)
+bones/40/position = Vector3(1.7404576e-05, 4.332985, -1.8357568e-05)
+bones/40/rotation = Quaternion(0.0106805265, 0.057952914, 0.25814542, 0.9643072)
+bones/41/position = Vector3(1.6212565e-05, 3.3636923, 1.3710593e-05)
+bones/41/rotation = Quaternion(-0.022124963, 0.028940927, 0.08811683, 0.9954438)
+bones/42/position = Vector3(-9.536743e-06, 5.4412537, 4.1723254e-07)
+bones/43/position = Vector3(3.490783, 17.364199, -0.64500576)
+bones/43/rotation = Quaternion(0.028199783, -5.517424e-06, 0.0032347806, 0.9995971)
+bones/44/position = Vector3(1.03199145e-05, 5.282404, 4.733947e-06)
+bones/44/rotation = Quaternion(-6.465373e-09, 9.1351116e-10, -9.778892e-09, 1)
+bones/45/position = Vector3(6.938383e-06, 2.921001, 3.3577744e-06)
+bones/45/rotation = Quaternion(9.31327e-10, 3.5401683e-08, 3.213063e-08, 1)
+bones/46/position = Vector3(2.8483344e-06, 5.200989, 1.6957601e-06)
+bones/47/position = Vector3(0.0030849183, 18.140402, 0.03399459)
+bones/47/rotation = Quaternion(0.028199786, -5.5349774e-06, 0.0032347462, 0.9995971)
+bones/48/position = Vector3(1.0599494e-05, 3.8581996, 5.0948865e-06)
+bones/48/rotation = Quaternion(-3.2425116e-09, 2.3277819e-08, 3.4458935e-08, 1)
+bones/49/position = Vector3(-3.4584039e-06, 6.063006, 2.5560375e-06)
+bones/49/rotation = Quaternion(-6.5192607e-09, -1.8629334e-09, 2.3283033e-09, 1)
+bones/50/position = Vector3(3.5979708e-06, 4.7439904, 2.5014015e-06)
+bones/51/position = Vector3(-3.7065098, 17.51661, -0.5480052)
+bones/51/rotation = Quaternion(0.028199786, -5.469842e-06, 0.003234843, 0.9995971)
+bones/52/position = Vector3(3.0911835e-06, 5.1519957, 1.0998477e-06)
+bones/52/rotation = Quaternion(-6.1393075e-07, -4.6544987e-08, -6.286177e-08, 1)
+bones/53/position = Vector3(2.660871e-06, 5.0299926, 1.4225691e-05)
+bones/53/rotation = Quaternion(1.7205175e-06, -5.113068e-08, -9.315949e-08, 1)
+bones/54/position = Vector3(2.9364e-06, 3.839999, -1.163681e-05)
+bones/55/rotation = Quaternion(0.028199783, -5.4972434e-06, 0.0032347045, 0.9995971)
+bones/56/position = Vector3(4.932606e-06, 3.1343064, -5.3945887e-06)
+bones/56/rotation = Quaternion(8.479522e-09, -8.5733944e-08, 1.816078e-08, 1)
+bones/57/position = Vector3(-2.7582978e-06, 3.2630916, -3.1141535e-06)
+bones/57/rotation = Quaternion(-8.3819245e-09, -5.4938486e-08, -7.3574505e-08, 1)
+bones/58/position = Vector3(1.2413366e-06, 2.8490064, 2.499764e-06)
+bones/59/position = Vector3(12.796848, -8.515794, 1.4029404)
+bones/59/rotation = Quaternion(0.09298593, 0.5031725, 0.8304575, -0.22025283)
+bones/60/position = Vector3(4.4561716e-06, 46.00001, -2.2559811e-06)
+bones/60/rotation = Quaternion(-0.5073557, 0.04472769, -0.01900245, 0.86036533)
+bones/61/position = Vector3(6.55219e-06, 48.941242, 4.033541e-06)
+bones/61/rotation = Quaternion(0.48818955, -0.18678933, -0.07220956, 0.8494508)
+bones/62/position = Vector3(7.4299396e-06, 14.799996, 2.8440254e-06)
+bones/62/rotation = Quaternion(0.36911336, -0.07610151, -0.028656643, 0.92582)
+bones/64/position = Vector3(-12.796913, -8.515754, 1.4029437)
+bones/64/rotation = Quaternion(-0.13871706, 0.4741763, 0.853675, 0.16478312)
+bones/65/rotation = Quaternion(-0.52230793, -0.06679412, 0.044521067, 0.84897053)
+bones/66/position = Vector3(-4.0135665e-06, 48.941196, 5.6983577e-06)
+bones/66/rotation = Quaternion(0.5370399, 0.15177779, 0.07773441, 0.8261412)
+bones/67/rotation = Quaternion(0.36937445, 0.07618673, 0.028660603, 0.9257087)
+bones/68/position = Vector3(3.3404402e-07, 14.521988, -5.355105e-07)
+
+[node name="PhysicalBoneSimulator3D" type="PhysicalBoneSimulator3D" parent="Zombie/Skeleton3D" index="1" unique_id=182434940]
+
+[node name="Physical Bone mixamorig_Hips" type="PhysicalBone3D" parent="Zombie/Skeleton3D/PhysicalBoneSimulator3D" index="0" unique_id=101728530]
+transform = Transform3D(-95.78848, 28.45344, 3.868807, -28.243546, -90.9239, -30.58017, -5.1834397, -30.38497, 95.13088, 11.263702, -3.8091197, -101.182175)
+collision_layer = 2
+collision_mask = 2
+joint_offset = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -7.6509576e-07, -2.0592706e-05, 0.054986876)
+body_offset = Transform3D(-99.99999, -0.01641655, 4.196167e-05, -0.00020313263, 0.98073196, -99.9952, 0.016412735, -99.99519, -0.9807358, -7.915497e-05, 5.4984436, 0.05186844)
+bone_name = "mixamorig_Hips"
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Zombie/Skeleton3D/PhysicalBoneSimulator3D/Physical Bone mixamorig_Hips" index="0" unique_id=668789772]
+transform = Transform3D(1, -8.492407e-11, -1.4551915e-11, 0, 0, 1.0000001, -8.492407e-11, -1, 9.313226e-10, 0.0024991713, -0.009433154, 0.06271744)
+shape = SubResource("CapsuleShape3D_blicy")
+debug_color = Color(0.6122586, 2.0311178e-05, 0.4496975, 0.41960785)
+
+[node name="Physical Bone mixamorig_Spine" type="PhysicalBone3D" parent="Zombie/Skeleton3D/PhysicalBoneSimulator3D" index="1" unique_id=129618593]
+transform = Transform3D(93.70595, -33.863148, 8.513711, 33.630966, 80.97425, -48.084595, 9.389044, 47.921364, 87.2662, 10.570437, 0.58499444, -111.335686)
+collision_layer = 2
+collision_mask = 2
+joint_type = 1
+joint_offset = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.037672e-06, -2.339052e-06, 0.05631021)
+body_offset = Transform3D(100.000015, -0.00040626526, 0.000333786, 0.00032424927, -0.00093078613, -99.99998, 0.00039672852, 99.999985, -0.00092697144, -0.00022256374, 5.6310196, 0.0002861023)
+bone_name = "mixamorig_Spine"
+joint_constraints/bias = 0.3
+joint_constraints/damping = 1.0
+joint_constraints/impulse_clamp = 0.0
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Zombie/Skeleton3D/PhysicalBoneSimulator3D/Physical Bone mixamorig_Spine" index="0" unique_id=932523924]
+transform = Transform3D(1, -2.0117032e-21, 0, 0, 0, 1, 2.0117032e-21, -1, 0, 2.957102e-14, -0.0020974614, -0.3057145)
+shape = SubResource("CapsuleShape3D_yaogc")
+debug_color = Color(0.6122586, 2.0311178e-05, 0.4496975, 0.41960785)
+
+[node name="Physical Bone mixamorig_Spine1" type="PhysicalBone3D" parent="Zombie/Skeleton3D/PhysicalBoneSimulator3D" index="2" unique_id=1993193365]
+transform = Transform3D(92.01015, -36.316906, 14.67022, 37.394817, 70.308395, -60.484356, 11.651651, 61.13764, 78.2715, 9.300162, 6.5547066, -120.47392)
+collision_layer = 2
+collision_mask = 2
+joint_type = 1
+joint_offset = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.561675e-06, 2.4270587e-06, 0.053877104)
+body_offset = Transform3D(99.99999, -0.00070381165, 0.00066185, 0.00066185, -0.0010986328, -100, 0.000705719, 100, -0.0011062622, -0.00029182434, 5.3877106, -0.00018310547)
+bone_name = "mixamorig_Spine1"
+joint_constraints/bias = 0.3
+joint_constraints/damping = 1.0
+joint_constraints/impulse_clamp = 0.0
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Zombie/Skeleton3D/PhysicalBoneSimulator3D/Physical Bone mixamorig_Spine1" index="0" unique_id=489681192]
+transform = Transform3D(0.9993698, 0.03549194, -0.00045336454, 0.004110233, -0.10304095, 0.9947577, 0.035254948, -0.9941279, -0.103123024, 0.0055671763, 0.0016849935, 0.0031362772)
+shape = SubResource("CapsuleShape3D_siap5")
+debug_color = Color(0.6122586, 2.0311178e-05, 0.4496975, 0.41960785)
+
+[node name="Physical Bone mixamorig_Spine2" type="PhysicalBone3D" parent="Zombie/Skeleton3D/PhysicalBoneSimulator3D" index="3" unique_id=626055737]
+transform = Transform3D(90.364265, -38.017975, 19.721407, 40.374477, 60.253716, -68.84324, 14.289925, 70.1721, 69.797386, 12.107197, -2.3036234, -113.21075)
+collision_layer = 2
+collision_mask = 2
+joint_type = 1
+joint_offset = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.2231894e-05, 0.0060760733, -0.17104326)
+body_offset = Transform3D(100, -0.0006542206, 0.0008583069, 0.0008716583, 1.933567, -99.98131, 0.00063323975, 99.98132, 1.9335594, -0.0010724068, -17.112877, -0.27677155)
+bone_name = "mixamorig_Spine2"
+joint_constraints/bias = 0.3
+joint_constraints/damping = 1.0
+joint_constraints/impulse_clamp = 0.0
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Zombie/Skeleton3D/PhysicalBoneSimulator3D/Physical Bone mixamorig_Spine2" index="0" unique_id=1886544663]
+transform = Transform3D(1, 1.6026922e-18, 7.995991e-19, 0, 1.5459955e-07, 1.000027, 1.1646703e-21, -1.000027, 2.4028122e-07, -6.6112616e-17, 3.1106174e-07, -0.013797641)
+shape = SubResource("CapsuleShape3D_e4xys")
+debug_color = Color(0.6122586, 2.0311178e-05, 0.4496975, 0.41960785)
+
+[node name="Physical Bone mixamorig_Neck" type="PhysicalBone3D" parent="Zombie/Skeleton3D/PhysicalBoneSimulator3D" index="4" unique_id=1332873615]
+transform = Transform3D(-91.57671, 29.343716, 27.434507, -37.071938, -35.42999, -85.85096, -15.471818, -88.78999, 43.323906, 1.4587158, 33.94128, -146.98853)
+collision_layer = 2
+collision_mask = 2
+joint_type = 1
+joint_offset = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.0272864e-05, 7.062405e-05, 0.04943567)
+body_offset = Transform3D(-100, 0.0001707077, 4.196167e-05, 2.4795532e-05, 34.79706, -93.75055, -0.00017166138, -93.75057, -34.79706, 0.0010251999, 4.632164, 1.7268372)
+bone_name = "mixamorig_Neck"
+joint_constraints/bias = 0.3
+joint_constraints/damping = 1.0
+joint_constraints/impulse_clamp = 0.0
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Zombie/Skeleton3D/PhysicalBoneSimulator3D/Physical Bone mixamorig_Neck" index="0" unique_id=661576301]
+transform = Transform3D(1, 1.6940659e-21, -1.1418004e-18, 0, 0, 1, -1.6940659e-21, -1, 0, 3.4360474e-14, 0.0065646768, -0.008961201)
+shape = SubResource("CapsuleShape3D_m83i4")
+debug_color = Color(0.6122586, 2.0311178e-05, 0.4496975, 0.41960785)
+
+[node name="Physical Bone mixamorig_Head" type="PhysicalBone3D" parent="Zombie/Skeleton3D/PhysicalBoneSimulator3D" index="5" unique_id=1655182977]
+transform = Transform3D(-93.526634, 35.386936, 0.73125863, -34.42145, -90.45494, -25.160816, -8.242182, -23.78377, 96.78016, 0.039511234, 40.250156, -157.04073)
+collision_layer = 2
+collision_mask = 2
+joint_type = 1
+joint_offset = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.6348362e-06, 1.5746802e-05, 0.081607945)
+body_offset = Transform3D(-99.99999, 0.0005187988, -0.00033569336, 0.00050878525, 38.47585, -92.30175, -0.00033950806, -92.30176, -38.475834, 0.00029087067, 7.531952, 3.141388)
+bone_name = "mixamorig_Head"
+joint_constraints/bias = 0.3
+joint_constraints/damping = 1.0
+joint_constraints/impulse_clamp = 0.0
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Zombie/Skeleton3D/PhysicalBoneSimulator3D/Physical Bone mixamorig_Head" index="0" unique_id=319183091]
+transform = Transform3D(1, 0, 0, 0, 0, 1, 0, -1, 0, 0, 0, 0)
+shape = SubResource("SphereShape3D_v58xl")
+debug_color = Color(0.6122586, 2.0311178e-05, 0.4496975, 0.41960785)
+
+[node name="Physical Bone mixamorig_LeftShoulder" type="PhysicalBone3D" parent="Zombie/Skeleton3D/PhysicalBoneSimulator3D" index="6" unique_id=412535458]
+transform = Transform3D(20.879034, 14.9924965, -96.64001, 80.78495, -58.336746, 8.403336, -55.116768, -79.82512, -24.291832, 22.42035, 25.298426, -145.13945)
+collision_layer = 2
+collision_mask = 2
+joint_type = 1
+joint_offset = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.8346221e-05, 8.272958e-05, 0.09074974)
+body_offset = Transform3D(0.13558578, 99.99992, 0.00018024445, 0.029416561, 0.00014257431, -100, -99.999916, 0.1355896, -0.029418945, -0.008293152, 9.074972, 0.005493164)
+bone_name = "mixamorig_LeftShoulder"
+joint_constraints/bias = 0.3
+joint_constraints/damping = 1.0
+joint_constraints/impulse_clamp = 0.0
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Zombie/Skeleton3D/PhysicalBoneSimulator3D/Physical Bone mixamorig_LeftShoulder" index="0" unique_id=1791641270]
+transform = Transform3D(1.0000156, -1.1670636e-08, 1.1201482e-06, -2.8702198e-07, 2.682209e-07, 1.0000097, 2.2885943e-06, -1.0000036, -2.0563602e-06, 6.7949295e-06, -1.9669533e-06, 0.0013618767)
+shape = SubResource("CapsuleShape3D_dta2r")
+debug_color = Color(0.6122586, 2.0311178e-05, 0.4496975, 0.41960785)
+
+[node name="Physical Bone mixamorig_LeftArm" type="PhysicalBone3D" parent="Zombie/Skeleton3D/PhysicalBoneSimulator3D" index="7" unique_id=808034371]
+transform = Transform3D(58.805138, -59.260284, -55.047024, -67.08662, -73.75366, 7.732028, -45.181213, 32.382355, -83.12666, 38.40397, 23.519825, -132.02454)
+collision_layer = 2
+collision_mask = 2
+joint_type = 1
+joint_offset = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.207573e-05, -7.305421e-05, 0.13138565)
+body_offset = Transform3D(100, 0.0005264282, 0.00026607513, 0.0002641678, -0.0005941391, -100.00001, -0.00051498413, 100.00003, -0.00060749054, -0.0032424927, 13.138565, 0.007385254)
+bone_name = "mixamorig_LeftArm"
+joint_constraints/bias = 0.3
+joint_constraints/damping = 1.0
+joint_constraints/impulse_clamp = 0.0
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Zombie/Skeleton3D/PhysicalBoneSimulator3D/Physical Bone mixamorig_LeftArm" index="0" unique_id=397150156]
+transform = Transform3D(1, 0, 0, 0, -6.634948e-15, 1, 0, -1, 6.634949e-15, 0, 1.1920929e-07, 0.002481103)
+shape = SubResource("CapsuleShape3D_sl83e")
+debug_color = Color(0.6122586, 2.0311178e-05, 0.4496975, 0.41960785)
+
+[node name="Physical Bone mixamorig_LeftForeArm" type="PhysicalBone3D" parent="Zombie/Skeleton3D/PhysicalBoneSimulator3D" index="8" unique_id=1591733260]
+transform = Transform3D(59.260536, 62.439953, 50.886555, 73.75329, -16.66398, -65.44284, -32.382755, 76.31227, -55.92668, 38.438183, 31.762768, -113.19779)
+collision_layer = 2
+collision_mask = 2
+joint_type = 1
+joint_offset = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.3438205e-05, -5.279486e-06, 0.14147232)
+body_offset = Transform3D(0.00044345856, 100.00001, -0.0006904602, -3.8146973e-06, -0.0006837845, -100, -100.00003, 0.0004491806, 1.9073486e-05, 0.00062561035, 14.147232, 0.0043411255)
+bone_name = "mixamorig_LeftForeArm"
+joint_constraints/bias = 0.3
+joint_constraints/damping = 1.0
+joint_constraints/impulse_clamp = 0.0
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Zombie/Skeleton3D/PhysicalBoneSimulator3D/Physical Bone mixamorig_LeftForeArm" index="0" unique_id=1242564793]
+transform = Transform3D(1, -9.034995e-13, -5.8264504e-13, 2.1316282e-14, 0, 1, -1.26565425e-14, -1, 0, 0, 0, -0.007178843)
+shape = SubResource("CapsuleShape3D_uff4m")
+debug_color = Color(0.6122586, 2.0311178e-05, 0.4496975, 0.41960785)
+
+[node name="Physical Bone mixamorig_LeftHand" type="PhysicalBone3D" parent="Zombie/Skeleton3D/PhysicalBoneSimulator3D" index="9" unique_id=83516993]
+transform = Transform3D(-13.90304, 48.092396, 86.566895, -0.9613842, 87.3462, -48.67974, -99.02415, -7.600204, -11.681424, 27.774998, 42.97219, -104.81497)
+collision_layer = 2
+collision_mask = 2
+joint_type = 1
+joint_offset = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.6851503e-05, 2.3584347e-05, 0.040019765)
+body_offset = Transform3D(-55.02609, 66.52133, 50.468254, -0.0003706813, 60.441338, -79.66707, -83.499306, -43.83787, -33.258247, -2.019269, 3.1868324, 1.3350983)
+bone_name = "mixamorig_LeftHand"
+joint_constraints/bias = 0.3
+joint_constraints/damping = 1.0
+joint_constraints/impulse_clamp = 0.0
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Zombie/Skeleton3D/PhysicalBoneSimulator3D/Physical Bone mixamorig_LeftHand" index="0" unique_id=310501690]
+transform = Transform3D(0.98583114, -0.11423306, -0.122798026, 0.16753927, 0.6364616, 0.75286055, -0.007843345, -0.7627985, 0.6465821, -0.0037299395, 0.05195594, -0.02461975)
+shape = SubResource("CapsuleShape3D_ul75q")
+debug_color = Color(0.6122586, 2.0311178e-05, 0.4496975, 0.41960785)
+
+[node name="Physical Bone mixamorig_LeftHandThumb" type="PhysicalBone3D" parent="Zombie/Skeleton3D/PhysicalBoneSimulator3D" index="10" unique_id=1189711577]
+transform = Transform3D(7.109803, 58.495106, 80.79464, 39.79214, 72.61179, -56.072395, -91.46604, 36.13655, -18.113901, 22.5574, 46.135677, -103.955696)
+collision_layer = 2
+collision_mask = 2
+joint_type = 1
+joint_offset = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.8525646e-05, 1.3117194e-05, 0.021640347)
+body_offset = Transform3D(0.00017166138, 100, -0.00032806396, -0.00034332275, -0.00033569336, -99.99997, -100, 0.00016784668, 0.00033950806, -0.0013046265, 2.164034, 0.0038452148)
+bone_name = "mixamorig_LeftHandThumb1"
+joint_constraints/bias = 0.3
+joint_constraints/damping = 1.0
+joint_constraints/impulse_clamp = 0.0
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Zombie/Skeleton3D/PhysicalBoneSimulator3D/Physical Bone mixamorig_LeftHandThumb" index="0" unique_id=1531639705]
+transform = Transform3D(0.99999976, 0, -1.937151e-07, 1.4901161e-07, 0, 1, 1.4156103e-07, -1, 1.7881393e-07, -5.9604645e-07, 4.7683716e-07, -0.017651103)
+shape = SubResource("CapsuleShape3D_qoau2")
+debug_color = Color(0.6122586, 2.0311178e-05, 0.4496975, 0.41960785)
+
+[node name="Physical Bone mixamorig_LeftHandIndex" type="PhysicalBone3D" parent="Zombie/Skeleton3D/PhysicalBoneSimulator3D" index="11" unique_id=1257427271]
+transform = Transform3D(34.335075, 83.78853, 42.433304, 29.937044, 33.05974, -89.50323, -89.02178, 43.434273, -13.732722, 20.531984, 58.232964, -106.20375)
+collision_layer = 2
+collision_mask = 2
+joint_type = 1
+joint_offset = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.5479127e-05, -6.269425e-06, 0.02634436)
+body_offset = Transform3D(0.00044250488, 100.00001, 0.0005569458, 2.4795532e-05, 0.00057411194, -99.99998, -100.00002, 0.00045013428, -1.1444092e-05, 0.0006122589, 2.6344357, 0.0025482178)
+bone_name = "mixamorig_LeftHandIndex1"
+joint_constraints/bias = 0.3
+joint_constraints/damping = 1.0
+joint_constraints/impulse_clamp = 0.0
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Zombie/Skeleton3D/PhysicalBoneSimulator3D/Physical Bone mixamorig_LeftHandIndex" index="0" unique_id=1130180503]
+transform = Transform3D(1, 2.0869972e-12, 8.100187e-13, -3.5527137e-15, -3.7252903e-08, 0.9999728, -1.4432899e-15, -0.9999728, -3.7252903e-08, 0, -5.2154064e-08, -0.034861743)
+shape = SubResource("CapsuleShape3D_f07ra")
+debug_color = Color(0.6122586, 2.0311178e-05, 0.4496975, 0.41960785)
+
+[node name="Physical Bone mixamorig_LeftHandMiddle" type="PhysicalBone3D" parent="Zombie/Skeleton3D/PhysicalBoneSimulator3D" index="12" unique_id=1847700617]
+transform = Transform3D(83.78705, -34.34638, 42.42709, 33.063446, -29.912025, -89.51022, 43.43432, 89.02583, -13.706305, 23.16973, 59.353542, -104.136)
+collision_layer = 2
+collision_mask = 2
+joint_type = 1
+joint_offset = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -8.847832e-06, -2.41591e-05, 0.019261362)
+body_offset = Transform3D(100.000015, 0.0001077652, 0.001077652, 0.0010929108, -0.00015449524, -99.99999, -0.0001039505, 100.00002, -0.00013542175, 0.00086402893, 1.926136, 0.002418518)
+bone_name = "mixamorig_LeftHandMiddle1"
+joint_constraints/bias = 0.3
+joint_constraints/damping = 1.0
+joint_constraints/impulse_clamp = 0.0
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Zombie/Skeleton3D/PhysicalBoneSimulator3D/Physical Bone mixamorig_LeftHandMiddle" index="0" unique_id=1966619143]
+transform = Transform3D(1, 0, 0, -1.2363444e-12, 2.7819835e-10, 1, 0, -1, 1.06803455e-13, -2.9802322e-08, 0, -0.037035406)
+shape = SubResource("CapsuleShape3D_8w532")
+debug_color = Color(0.6122586, 2.0311178e-05, 0.4496975, 0.41960785)
+
+[node name="Physical Bone mixamorig_LeftHandRing" type="PhysicalBone3D" parent="Zombie/Skeleton3D/PhysicalBoneSimulator3D" index="13" unique_id=1418360287]
+transform = Transform3D(34.33543, 83.78836, 42.433353, 29.936617, 33.059944, -89.503296, -89.02178, 43.43445, -13.732125, 26.459068, 60.74847, -102.984085)
+collision_layer = 2
+collision_mask = 2
+joint_type = 1
+joint_offset = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.4472092e-05, -1.74173e-05, 0.025722379)
+body_offset = Transform3D(0.0006132126, 100.00001, 0.0007534027, -0.0005054474, 0.00076675415, -99.99997, -100, 0.00061035156, 0.0005226135, 0.0017223358, 2.572237, 0.0024337769)
+bone_name = "mixamorig_LeftHandRing1"
+joint_constraints/bias = 0.3
+joint_constraints/damping = 1.0
+joint_constraints/impulse_clamp = 0.0
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Zombie/Skeleton3D/PhysicalBoneSimulator3D/Physical Bone mixamorig_LeftHandRing" index="0" unique_id=136347800]
+transform = Transform3D(0.9999995, -2.682209e-07, 5.2154064e-07, -1.6391277e-07, 1.1920929e-07, 0.9999998, 6.2584877e-07, -0.9999994, 2.0861626e-07, 2.3841858e-07, -1.1920929e-07, -0.030753225)
+shape = SubResource("CapsuleShape3D_5nt0b")
+debug_color = Color(0.6122586, 2.0311178e-05, 0.4496975, 0.41960785)
+
+[node name="Physical Bone mixamorig_LeftHandPinky" type="PhysicalBone3D" parent="Zombie/Skeleton3D/PhysicalBoneSimulator3D" index="14" unique_id=1707309535]
+transform = Transform3D(34.684296, 86.56852, 36.095596, 29.129583, 26.63905, -91.879425, -89.154175, 42.382233, -15.977481, 30.194885, 60.681107, -101.389946)
+collision_layer = 2
+collision_mask = 2
+joint_type = 1
+joint_offset = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.33203e-05, -2.4301424e-05, 0.015651021)
+body_offset = Transform3D(0.000111579895, 100.00002, -0.00011062622, 0.000102996826, -0.00010871887, -99.99998, -100.000015, 0.00012207031, -9.346008e-05, 0.0024318695, 1.5651016, 0.004333496)
+bone_name = "mixamorig_LeftHandPinky1"
+joint_constraints/bias = 0.3
+joint_constraints/damping = 1.0
+joint_constraints/impulse_clamp = 0.0
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Zombie/Skeleton3D/PhysicalBoneSimulator3D/Physical Bone mixamorig_LeftHandPinky" index="0" unique_id=273003322]
+transform = Transform3D(1, -1.7763568e-15, 0, 0, 0, 1, 3.1086245e-15, -1, 0, 0, 1.4901161e-08, -0.022020936)
+shape = SubResource("CapsuleShape3D_0pu7s")
+debug_color = Color(0.6122586, 2.0311178e-05, 0.4496975, 0.41960785)
+
+[node name="Physical Bone mixamorig_RightShoulder" type="PhysicalBone3D" parent="Zombie/Skeleton3D/PhysicalBoneSimulator3D" index="15" unique_id=1834589666]
+transform = Transform3D(-58.017616, -50.610374, 63.816513, 47.930107, 42.134163, 76.98972, -65.85334, 75.25491, -0.18762922, -6.535138, 12.64593, -149.59943)
+collision_layer = 2
+collision_mask = 2
+joint_type = 1
+joint_offset = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6.797785e-05, -0.00011266146, 0.09067853)
+body_offset = Transform3D(0.04494095, 99.99997, 0.03300476, -0.009616852, 0.033008575, -99.999985, -99.99999, 0.044944763, 0.009647369, 0.008270264, 9.067856, 0.0059280396)
+bone_name = "mixamorig_RightShoulder"
+joint_constraints/bias = 0.3
+joint_constraints/damping = 1.0
+joint_constraints/impulse_clamp = 0.0
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Zombie/Skeleton3D/PhysicalBoneSimulator3D/Physical Bone mixamorig_RightShoulder" index="0" unique_id=785864144]
+transform = Transform3D(1.0000005, -1.3605968e-06, 3.061723e-08, 4.4400804e-07, 3.5762787e-07, 1.000004, -1.5086116e-06, -1.0000099, -1.3411045e-07, -1.1920929e-07, 1.2367964e-06, 0.005788207)
+shape = SubResource("CapsuleShape3D_w4koy")
+debug_color = Color(0.6122586, 2.0311178e-05, 0.4496975, 0.41960785)
+
+[node name="Physical Bone mixamorig_RightArm" type="PhysicalBone3D" parent="Zombie/Skeleton3D/PhysicalBoneSimulator3D" index="16" unique_id=1982574745]
+transform = Transform3D(-98.31902, 9.717063, 15.45797, 15.57729, 88.80586, 43.253532, -9.52461, 44.93438, -88.82671, -14.347537, -0.018554553, -137.91597)
+collision_layer = 2
+collision_mask = 2
+joint_type = 1
+joint_offset = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.9871545e-05, -2.3187285e-06, 0.13141495)
+body_offset = Transform3D(0.00032138824, 100, 0.0008354187, -0.0008392334, 0.0008506775, -100, -99.99999, 0.00031852722, 0.00082302094, 0.00012207031, 13.141495, 0.004878998)
+bone_name = "mixamorig_RightArm"
+joint_constraints/bias = 0.3
+joint_constraints/damping = 1.0
+joint_constraints/impulse_clamp = 0.0
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Zombie/Skeleton3D/PhysicalBoneSimulator3D/Physical Bone mixamorig_RightArm" index="0" unique_id=1934501005]
+transform = Transform3D(1, 1.7927395e-15, 0, 0, 0, 1, -1.7927397e-15, -1, 0, 0, 2.9802322e-08, 0.00033789873)
+shape = SubResource("CapsuleShape3D_8nvl8")
+debug_color = Color(0.6122586, 2.0311178e-05, 0.4496975, 0.41960785)
+
+[node name="Physical Bone mixamorig_RightForeArm" type="PhysicalBone3D" parent="Zombie/Skeleton3D/PhysicalBoneSimulator3D" index="17" unique_id=248933970]
+transform = Transform3D(-98.31909, 15.285995, -9.984781, 15.57681, 41.69766, -89.54701, -9.524732, -89.597115, -43.37783, -14.964872, 6.9739027, -120.113075)
+collision_layer = 2
+collision_mask = 2
+joint_type = 1
+joint_offset = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.302389e-05, 1.7539409e-05, 0.1415148)
+body_offset = Transform3D(0.000726223, 99.99999, -0.0005874634, -0.0001411438, -0.00061035156, -100.000015, -99.99999, 0.00071048737, 0.00014400482, -0.0016708374, 14.151482, 0.0042819977)
+bone_name = "mixamorig_RightForeArm"
+joint_constraints/bias = 0.3
+joint_constraints/damping = 1.0
+joint_constraints/impulse_clamp = 0.0
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Zombie/Skeleton3D/PhysicalBoneSimulator3D/Physical Bone mixamorig_RightForeArm" index="0" unique_id=903806536]
+transform = Transform3D(1, 2.0866642e-13, -5.2047255e-13, -6.412648e-13, -5.7742e-08, 0.9999885, 1.2047308e-12, -0.9999885, 1.0058284e-07, -2.3841858e-07, -8.940697e-08, 0.0004323125)
+shape = SubResource("CapsuleShape3D_8320b")
+debug_color = Color(0.6122586, 2.0311178e-05, 0.4496975, 0.41960785)
+
+[node name="Physical Bone mixamorig_RightHand" type="PhysicalBone3D" parent="Zombie/Skeleton3D/PhysicalBoneSimulator3D" index="18" unique_id=1671958537]
+transform = Transform3D(62.79987, -61.918056, -47.1416, -31.413836, 35.252304, -88.15013, 71.19935, 70.16716, 2.6875658, -11.666589, 23.169085, -114.08363)
+collision_layer = 2
+collision_mask = 2
+joint_type = 1
+joint_offset = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4.2952597e-05, 2.4084002e-06, 0.040028315)
+body_offset = Transform3D(-55.03059, -66.517784, -50.46797, -0.00023651123, 60.443504, -79.66545, 83.496315, -43.840233, -33.262566, 2.0179443, 3.1887283, 1.3351364)
+bone_name = "mixamorig_RightHand"
+joint_constraints/bias = 0.3
+joint_constraints/damping = 1.0
+joint_constraints/impulse_clamp = 0.0
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Zombie/Skeleton3D/PhysicalBoneSimulator3D/Physical Bone mixamorig_RightHand" index="0" unique_id=1563629866]
+transform = Transform3D(0.8205792, -0.56867397, 0.057174344, -0.46338922, -0.6033813, 0.64900726, -0.3345574, -0.5590512, -0.7586309, 0.0075571537, 0.06251311, -0.022690926)
+shape = SubResource("BoxShape3D_00x83")
+debug_color = Color(0.6122586, 2.0311178e-05, 0.4496975, 0.41960785)
+
+[node name="Physical Bone mixamorig_RightHandThumb" type="PhysicalBone3D" parent="Zombie/Skeleton3D/PhysicalBoneSimulator3D" index="19" unique_id=1521073360]
+transform = Transform3D(-82.39707, 29.83968, -48.169666, 45.560516, -15.653811, -87.631035, -33.689205, -94.15176, -0.69683063, -8.737, 28.59737, -114.176155)
+collision_layer = 2
+collision_mask = 2
+joint_type = 1
+joint_offset = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.6688873e-05, 2.2140293e-05, 0.021638133)
+body_offset = Transform3D(-0.0007176399, 100, -6.866455e-05, 0.00025177002, -9.8228455e-05, -99.99998, -99.99998, -0.00072193146, -0.00024032593, -0.0022125244, 2.1638126, 0.0026741028)
+bone_name = "mixamorig_RightHandThumb1"
+joint_constraints/bias = 0.3
+joint_constraints/damping = 1.0
+joint_constraints/impulse_clamp = 0.0
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Zombie/Skeleton3D/PhysicalBoneSimulator3D/Physical Bone mixamorig_RightHandThumb" index="0" unique_id=2066349931]
+transform = Transform3D(1, -6.7055225e-08, 1.4901161e-08, -5.9604645e-08, -2.9802322e-08, 1, -7.450581e-09, -0.99999994, -2.9802322e-08, 8.34465e-07, 5.9604645e-07, -0.04783298)
+shape = SubResource("CapsuleShape3D_kppw2")
+debug_color = Color(0.6122586, 2.0311178e-05, 0.4496975, 0.41960785)
+
+[node name="Physical Bone mixamorig_RightHandIndex1" type="PhysicalBone3D" parent="Zombie/Skeleton3D/PhysicalBoneSimulator3D" index="20" unique_id=514742683]
+transform = Transform3D(-95.107445, 30.437654, -5.3031096, 17.49691, 38.91462, -90.44065, -25.464327, -86.94367, -42.33635, -12.945323, 39.33854, -109.08829)
+collision_layer = 2
+collision_mask = 2
+joint_type = 1
+joint_offset = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.5591762e-05, 4.183298e-05, 0.026393129)
+body_offset = Transform3D(0.00023269653, 99.99996, 0.00019836426, -0.00041866302, 0.00019073486, -100, -99.999985, 0.00021266937, 0.00041484833, -0.0041885376, 2.6393127, 0.0025482178)
+bone_name = "mixamorig_RightHandIndex1"
+joint_constraints/bias = 0.3
+joint_constraints/damping = 1.0
+joint_constraints/impulse_clamp = 0.0
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Zombie/Skeleton3D/PhysicalBoneSimulator3D/Physical Bone mixamorig_RightHandIndex1" index="0" unique_id=1877195929]
+transform = Transform3D(1, -8.881784e-16, 1.5987212e-12, 0, 0, 1, 1.2212453e-15, -1, 0, 0, -2.9802322e-08, -0.043009818)
+shape = SubResource("CapsuleShape3D_jli3d")
+debug_color = Color(0.6122586, 2.0311178e-05, 0.4496975, 0.41960785)
+
+[node name="Physical Bone mixamorig_RightHandMiddle" type="PhysicalBone3D" parent="Zombie/Skeleton3D/PhysicalBoneSimulator3D" index="21" unique_id=153920678]
+transform = Transform3D(-95.10689, 30.439568, -5.3021345, 17.49676, 38.914253, -90.440834, -25.46651, -86.94316, -42.336075, -13.396302, 37.984528, -105.84731)
+collision_layer = 2
+collision_mask = 2
+joint_type = 1
+joint_offset = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.293875e-05, 3.7114954e-05, 0.019271355)
+body_offset = Transform3D(0.0022377968, 99.99996, 0.00020599365, -0.0014476776, 0.00018692017, -100, -99.999985, 0.002222538, 0.0014457703, -0.0037155151, 1.9271355, 0.0022659302)
+bone_name = "mixamorig_RightHandMiddle1"
+joint_constraints/bias = 0.3
+joint_constraints/damping = 1.0
+joint_constraints/impulse_clamp = 0.0
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Zombie/Skeleton3D/PhysicalBoneSimulator3D/Physical Bone mixamorig_RightHandMiddle" index="0" unique_id=636033533]
+transform = Transform3D(1, -1.7327251e-12, 1.7337243e-12, 0, 0, 1, -7.771561e-16, -1, 0, 0, 4.4703484e-08, -0.053545117)
+shape = SubResource("CapsuleShape3D_s5kvr")
+debug_color = Color(0.6122586, 2.0311178e-05, 0.4496975, 0.41960785)
+
+[node name="Physical Bone mixamorig_RightHandRing" type="PhysicalBone3D" parent="Zombie/Skeleton3D/PhysicalBoneSimulator3D" index="22" unique_id=276770449]
+transform = Transform3D(30.437449, 95.1075, -5.303444, 38.914787, -17.49718, -90.44052, -86.943665, 25.463963, -42.33658, -15.045823, 36.649395, -102.750336)
+collision_layer = 2
+collision_mask = 2
+joint_type = 1
+joint_offset = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.3017688e-05, -2.212893e-05, 0.025749078)
+body_offset = Transform3D(99.99996, -1.7642975e-05, 0.00034332275, 0.00032424927, 2.193451e-05, -99.999985, -3.8146973e-06, 99.999985, 1.4305115e-05, -0.004310608, 2.5749073, 0.0022125244)
+bone_name = "mixamorig_RightHandRing1"
+joint_constraints/bias = 0.3
+joint_constraints/damping = 1.0
+joint_constraints/impulse_clamp = 0.0
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Zombie/Skeleton3D/PhysicalBoneSimulator3D/Physical Bone mixamorig_RightHandRing" index="0" unique_id=902189146]
+transform = Transform3D(1, 0, 0, 0, -1.0358936e-12, 1, 0, -1, -1.4432899e-15, 4.4703484e-08, -1.1920929e-07, -0.04459977)
+shape = SubResource("CapsuleShape3D_ta48h")
+debug_color = Color(0.6122586, 2.0311178e-05, 0.4496975, 0.41960785)
+
+[node name="Physical Bone mixamorig_RightHandPinky" type="PhysicalBone3D" parent="Zombie/Skeleton3D/PhysicalBoneSimulator3D" index="23" unique_id=621299468]
+transform = Transform3D(-95.10713, 30.43856, -5.3035254, 17.497673, 38.914444, -90.44058, -25.464973, -86.943436, -42.336452, -16.100449, 33.879494, -100.11976)
+collision_layer = 2
+collision_mask = 2
+joint_type = 1
+joint_offset = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.9909972e-05, 3.29253e-05, 0.015662763)
+body_offset = Transform3D(0.0011906624, 99.99997, 0.00021362305, 1.6212463e-05, 0.00019454956, -100.000015, -99.999985, 0.0011725426, -2.002716e-05, -0.0032958984, 1.5662766, 0.001991272)
+bone_name = "mixamorig_RightHandPinky1"
+joint_constraints/bias = 0.3
+joint_constraints/damping = 1.0
+joint_constraints/impulse_clamp = 0.0
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Zombie/Skeleton3D/PhysicalBoneSimulator3D/Physical Bone mixamorig_RightHandPinky" index="0" unique_id=864964860]
+transform = Transform3D(1, 1.9151347e-15, 0, 0, 0, 1, -1.9151347e-15, -1, 0, 4.7683716e-07, 1.0430813e-07, -0.026361823)
+shape = SubResource("CapsuleShape3D_xttbf")
+debug_color = Color(0.6122586, 2.0311178e-05, 0.4496975, 0.41960785)
+
+[node name="Physical Bone mixamorig_LeftUpLeg" type="PhysicalBone3D" parent="Zombie/Skeleton3D/PhysicalBoneSimulator3D" index="24" unique_id=781609283]
+transform = Transform3D(-94.57733, -23.180822, -22.754726, 1.1687664, 67.577896, -73.70117, 32.461704, -69.97055, -63.64244, 28.875795, 13.828139, -72.1061)
+collision_layer = 2
+collision_mask = 2
+joint_type = 1
+joint_offset = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.9527239e-05, 4.6631438e-05, 0.23001331)
+body_offset = Transform3D(99.999985, 0.019506037, -0.01761514, -0.01760286, 0.0015945435, -99.999985, -0.019509614, 99.99994, 0.0015869141, 0.0020980835, 23.001328, -0.005027771)
+bone_name = "mixamorig_LeftUpLeg"
+joint_constraints/bias = 0.3
+joint_constraints/damping = 1.0
+joint_constraints/impulse_clamp = 0.0
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Zombie/Skeleton3D/PhysicalBoneSimulator3D/Physical Bone mixamorig_LeftUpLeg" index="0" unique_id=1226409029]
+transform = Transform3D(0.99999946, 1.1706725e-06, -3.1739473e-06, 6.0060993e-06, 2.682209e-07, 0.9999975, -5.658716e-06, -0.99999994, 1.6987324e-06, 3.5762787e-07, 4.7683716e-07, -0.0060929954)
+shape = SubResource("CapsuleShape3D_3id8x")
+debug_color = Color(0.6122586, 2.0311178e-05, 0.4496975, 0.41960785)
+
+[node name="Physical Bone mixamorig_LeftLeg" type="PhysicalBone3D" parent="Zombie/Skeleton3D/PhysicalBoneSimulator3D" index="25" unique_id=1720071294]
+transform = Transform3D(-94.57285, -0.4068805, -32.49323, -8.463586, 96.84953, 23.420858, 31.374243, 24.899868, -91.6278, 42.06278, 25.048208, -35.051632)
+collision_layer = 2
+collision_mask = 2
+joint_type = 1
+joint_offset = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.7058462e-05, 2.1339198e-05, 0.24471818)
+body_offset = Transform3D(99.999985, -0.00020694733, 0.0007376671, 0.0007362366, 0.0006752014, -99.99993, 0.00021743774, 99.999985, 0.00064468384, 0.0025253296, 24.4718, -0.0022916794)
+bone_name = "mixamorig_LeftLeg"
+joint_constraints/bias = 0.3
+joint_constraints/damping = 1.0
+joint_constraints/impulse_clamp = 0.0
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Zombie/Skeleton3D/PhysicalBoneSimulator3D/Physical Bone mixamorig_LeftLeg" index="0" unique_id=1926951298]
+transform = Transform3D(1.000001, -1.5776604e-06, -1.7955899e-06, 1.1920929e-07, -2.3841858e-07, 1.000007, -1.8440187e-07, -1.0000054, -3.695488e-06, 1.5616417e-05, 3.6656857e-06, -0.004573941)
+shape = SubResource("CapsuleShape3D_hg0r3")
+debug_color = Color(0.6122586, 2.0311178e-05, 0.4496975, 0.41960785)
+
+[node name="Physical Bone mixamorig_LeftFoot" type="PhysicalBone3D" parent="Zombie/Skeleton3D/PhysicalBoneSimulator3D" index="26" unique_id=340591434]
+transform = Transform3D(-96.99979, 10.422327, -21.963987, 23.266062, 66.002686, -71.43064, 7.0520864, -74.39772, -66.44733, 51.63976, 24.603424, -7.71278)
+collision_layer = 2
+collision_mask = 2
+joint_type = 1
+joint_offset = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -9.730896e-06, 2.427587e-05, 0.07398752)
+body_offset = Transform3D(99.99997, -6.67572e-05, 0.0009326935, 0.00094795227, 0.00030517578, -99.99997, 3.33786e-05, 99.99994, 0.000289917, 0.00090408325, 7.3987503, -0.0024490356)
+bone_name = "mixamorig_LeftFoot"
+joint_constraints/bias = 0.3
+joint_constraints/damping = 1.0
+joint_constraints/impulse_clamp = 0.0
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Zombie/Skeleton3D/PhysicalBoneSimulator3D/Physical Bone mixamorig_LeftFoot" index="0" unique_id=1187893349]
+transform = Transform3D(1, -8.940697e-08, 1.4901161e-07, 2.9802322e-08, -5.9604645e-08, 1.0000005, 1.4901161e-08, -1, 0, -2.9802322e-08, 2.3841858e-07, -0.004499048)
+shape = SubResource("CapsuleShape3D_rk1fl")
+debug_color = Color(0.6122586, 2.0311178e-05, 0.4496975, 0.41960785)
+
+[node name="Physical Bone mixamorig_LeftToeBase" type="PhysicalBone3D" parent="Zombie/Skeleton3D/PhysicalBoneSimulator3D" index="27" unique_id=2108023440]
+transform = Transform3D(-96.85897, 8.26381, -23.453161, 23.09869, -5.0255504, -97.16581, -9.208248, -99.531166, 2.9588645, 54.967594, 36.94672, -3.0077138)
+collision_layer = 2
+collision_mask = 2
+joint_type = 1
+joint_offset = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.3331854e-05, 3.9991908e-05, 0.0726036)
+body_offset = Transform3D(99.99997, 0.0032458305, 0.04100609, 0.040985107, 0.00031089783, -99.999954, -0.003288865, 99.99996, 0.00034809113, -0.0016441345, 7.260357, -0.0040245056)
+bone_name = "mixamorig_LeftToeBase"
+joint_constraints/bias = 0.3
+joint_constraints/damping = 1.0
+joint_constraints/impulse_clamp = 0.0
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Zombie/Skeleton3D/PhysicalBoneSimulator3D/Physical Bone mixamorig_LeftToeBase" index="0" unique_id=18820025]
+transform = Transform3D(1, 0, 2.1513551e-07, 0, -3.7252903e-09, 1.0000032, 0, -1, -2.3469329e-07, -0.0006329119, 0.0057991445, 0.0064302683)
+shape = SubResource("BoxShape3D_blicy")
+debug_color = Color(0.6122586, 2.0311178e-05, 0.4496975, 0.41960785)
+
+[node name="Physical Bone mixamorig_RightUpLeg" type="PhysicalBone3D" parent="Zombie/Skeleton3D/PhysicalBoneSimulator3D" index="28" unique_id=600821113]
+transform = Transform3D(-76.22636, -25.377935, 59.54412, -57.048576, 69.80034, -43.28249, -30.577791, -66.96175, -67.684, -14.568342, -0.3988713, -72.50115)
+collision_layer = 2
+collision_mask = 2
+joint_type = 1
+joint_offset = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.706239e-05, 5.5680204e-05, 0.23002896)
+body_offset = Transform3D(99.999985, 0.0012626648, -0.0015354156, -0.0015449524, -2.4795532e-05, -99.99998, -0.0012664795, 99.999954, -2.670288e-05, -0.003353119, 23.002892, -0.0055618286)
+bone_name = "mixamorig_RightUpLeg"
+joint_constraints/bias = 0.3
+joint_constraints/damping = 1.0
+joint_constraints/impulse_clamp = 0.0
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Zombie/Skeleton3D/PhysicalBoneSimulator3D/Physical Bone mixamorig_RightUpLeg" index="0" unique_id=1951989435]
+transform = Transform3D(0.9999956, -1.6242266e-06, -4.172325e-07, -7.1823597e-06, 2.4735928e-06, 1, -4.3809414e-06, -0.99999416, -2.9802322e-08, 1.6510487e-05, -2.5212765e-05, -0.014160901)
+shape = SubResource("CapsuleShape3D_o357f")
+debug_color = Color(0.6122586, 2.0311178e-05, 0.4496975, 0.41960785)
+
+[node name="Physical Bone mixamorig_RightLeg" type="PhysicalBone3D" parent="Zombie/Skeleton3D/PhysicalBoneSimulator3D" index="29" unique_id=225265447]
+transform = Transform3D(-85.598495, -51.566093, 3.7196987, -45.34989, 78.3448, 42.490925, -24.8251, 34.684708, -90.44714, -29.173353, -0.84148717, -34.80537)
+collision_layer = 2
+collision_mask = 2
+joint_type = 1
+joint_offset = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.204167e-05, 1.0720595e-05, 0.24472708)
+body_offset = Transform3D(99.99999, 0.00044250488, -0.0005893707, -0.0005836487, 0.00062942505, -99.999954, -0.00046539307, 99.99998, 0.00061035156, -0.0020599365, 24.472694, -0.0012214184)
+bone_name = "mixamorig_RightLeg"
+joint_constraints/bias = 0.3
+joint_constraints/damping = 1.0
+joint_constraints/impulse_clamp = 0.0
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Zombie/Skeleton3D/PhysicalBoneSimulator3D/Physical Bone mixamorig_RightLeg" index="0" unique_id=804445310]
+transform = Transform3D(1.0000064, 2.965331e-06, -5.811453e-06, 3.5762787e-07, -1.66893e-06, 1.0000038, 3.993511e-06, -1.0000502, -4.23193e-06, 5.2154064e-06, -5.528331e-06, 0.0005360544)
+shape = SubResource("CapsuleShape3D_p7vx4")
+debug_color = Color(0.6122586, 2.0311178e-05, 0.4496975, 0.41960785)
+
+[node name="Physical Bone mixamorig_RightFoot" type="PhysicalBone3D" parent="Zombie/Skeleton3D/PhysicalBoneSimulator3D" index="30" unique_id=975971318]
+transform = Transform3D(-73.07857, -44.848263, 51.460243, -68.20249, 51.08545, -52.33257, -2.818451, -73.34106, -67.92015, -33.888412, -7.3648796, -7.641702)
+collision_layer = 2
+collision_mask = 2
+joint_type = 1
+joint_offset = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.6694633e-05, 6.886052e-05, 0.0740194)
+body_offset = Transform3D(99.999985, 0.0016899109, 0.001953125, 0.001953125, 0.0016231537, -99.99997, -0.0016593933, 99.99993, 0.0016174316, -0.004814148, 7.4019384, -0.0070056915)
+bone_name = "mixamorig_RightFoot"
+joint_constraints/bias = 0.3
+joint_constraints/damping = 1.0
+joint_constraints/impulse_clamp = 0.0
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Zombie/Skeleton3D/PhysicalBoneSimulator3D/Physical Bone mixamorig_RightFoot" index="0" unique_id=1066309445]
+transform = Transform3D(1.0000008, 2.9802322e-08, -2.9802322e-08, 4.172325e-07, 0, 1, 5.066395e-07, -1, -8.940697e-08, -8.940697e-08, -1.1920929e-07, 0.0015571192)
+shape = SubResource("CapsuleShape3D_6s3qk")
+debug_color = Color(0.6122586, 2.0311178e-05, 0.4496975, 0.41960785)
+
+[node name="Physical Bone mixamorig_RightToeBase" type="PhysicalBone3D" parent="Zombie/Skeleton3D/PhysicalBoneSimulator3D" index="31" unique_id=1872874126]
+transform = Transform3D(-72.362366, -8.974996, 68.433464, -67.69907, -10.071931, -72.90674, 13.435947, -99.085846, 1.2122984, -42.668568, 1.7991446, -2.7100313)
+collision_layer = 2
+collision_mask = 2
+joint_type = 1
+joint_offset = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8.2578845e-06, 3.6810445e-06, 0.07258005)
+body_offset = Transform3D(100, 0.0006928444, 0.0022087097, 0.002231598, -0.00038957596, -99.99998, -0.0006713867, 99.999985, -0.00036764145, -0.0009860992, 7.258003, -0.0003414154)
+bone_name = "mixamorig_RightToeBase"
+joint_constraints/bias = 0.3
+joint_constraints/damping = 1.0
+joint_constraints/impulse_clamp = 0.0
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Zombie/Skeleton3D/PhysicalBoneSimulator3D/Physical Bone mixamorig_RightToeBase" index="0" unique_id=95961248]
+transform = Transform3D(0.99999964, 1.2516975e-06, -5.736947e-07, -8.121133e-07, 1.0430813e-07, 0.9999967, -8.940697e-08, -0.9999999, 4.8428774e-07, 0.0021833181, 0.007229939, 0.0017770827)
+shape = SubResource("BoxShape3D_t3ikf")
+debug_color = Color(0.6122586, 2.0311178e-05, 0.4496975, 0.41960785)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." index="2" unique_id=1066862200]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.9541626, 0)
+visible = false
+shape = SubResource("CapsuleShape3D_t3ikf")
+
+[node name="NavigationAgent3D" type="NavigationAgent3D" parent="." index="3" unique_id=1676336212]

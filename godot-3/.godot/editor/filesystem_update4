@@ -1,6 +1,5 @@
-res://scenes/level.tscn
+res://scenes/Zombie.tscn
 res://scenes/map.tscn
-res://scenes/FirstPersonPlayer.tscn
-res://scenes/Lightpost.tscn
-res://addons/simplegrasstextured/default_mesh.tres
-res://scenes/Map2.tscn
+res://scenes/zombie.gd
+res://scenes/level.tscn
+res://scripts/zombie.gd
