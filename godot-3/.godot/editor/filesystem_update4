@@ -1,5 +1,2 @@
-res://scenes/Zombie.tscn
-res://scenes/map.tscn
-res://scenes/zombie.gd
 res://scenes/level.tscn
-res://scripts/zombie.gd
+res://scenes/zombie.tscn
