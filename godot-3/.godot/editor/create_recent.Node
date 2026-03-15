@@ -1,7 +1,7 @@
+CollisionShape3D
+NavigationAgent3D
 AnimationTree
 NavigationRegion3D
-NavigationAgent3D
-CollisionShape3D
 CharacterBody3D
 Node3D
 OmniLight3D
@@ -12,4 +12,3 @@ CSGSphere3D
 StaticBody3D
 WorldEnvironment
 DirectionalLight3D
-CSGCombiner3D

@@ -2,6 +2,8 @@
 
 [ext_resource type="PackedScene" uid="uid://wrh7djuaqlly" path="res://scenes/map.tscn" id="2_w7c3h"]
 [ext_resource type="PackedScene" uid="uid://2da5pnlsr32r" path="res://scenes/FirstPersonPlayer.tscn" id="2_w8frs"]
+[ext_resource type="PackedScene" uid="uid://dxl6u7pr34qex" path="res://scenes/zombie.tscn" id="3_mx8sn"]
+[ext_resource type="Script" uid="uid://dbt2seoyk2ta2" path="res://scripts/zombie.gd" id="4_ppgk2"]
 
 [sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_w7c3h"]
 sky_horizon_color = Color(0.82067454, 0.8255671, 0.8356817, 1)
@@ -50,3 +52,8 @@ cast_shadow = 0
 radius = 80.0
 radial_segments = 100
 rings = 12
+
+[node name="Zombie" parent="." unique_id=1851170459 instance=ExtResource("3_mx8sn")]
+transform = Transform3D(0.8031711, 0, -0.59574836, 0, 1, 0, 0.59574836, 0, 0.8031711, 5.407533, 0, 0)
+script = ExtResource("4_ppgk2")
+player_path = NodePath("../Player")
