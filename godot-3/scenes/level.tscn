@@ -43,7 +43,7 @@ shadow_enabled = true
 [node name="Map1" parent="." unique_id=1860341615 instance=ExtResource("2_w7c3h")]
 
 [node name="Player" parent="." unique_id=802247324 instance=ExtResource("2_w8frs")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 3.241771, 3.708652)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.2760689, 3.708652)
 
 [node name="Moon" type="CSGSphere3D" parent="." unique_id=779966211]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 937, 717, -683)
@@ -53,7 +53,14 @@ radius = 80.0
 radial_segments = 100
 rings = 12
 
-[node name="Zombie" parent="." unique_id=1851170459 instance=ExtResource("3_mx8sn")]
-transform = Transform3D(0.8031711, 0, -0.59574836, 0, 1, 0, 0.59574836, 0, 0.8031711, 5.407533, 0, 0)
+[node name="ZombieContainer" type="Node3D" parent="." unique_id=1934288456]
+
+[node name="Zombie" parent="ZombieContainer" unique_id=1851170459 instance=ExtResource("3_mx8sn")]
+transform = Transform3D(0.8031711, 0, -0.59574836, 0, 1, 0, 0.59574836, 0, 0.8031711, 56.210514, 0.09811336, -7.393056)
 script = ExtResource("4_ppgk2")
-player_path = NodePath("../Player")
+player_path = NodePath("../../Player")
+
+[node name="Zombie2" parent="ZombieContainer" unique_id=1244634678 instance=ExtResource("3_mx8sn")]
+transform = Transform3D(0.8031711, 0, -0.59574836, 0, 1, 0, 0.59574836, 0, 0.8031711, 56.210514, 0.09811336, -6.171283)
+script = ExtResource("4_ppgk2")
+player_path = NodePath("../../Player")
