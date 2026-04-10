@@ -56,11 +56,21 @@ rings = 12
 [node name="ZombieContainer" type="Node3D" parent="." unique_id=1934288456]
 
 [node name="Zombie" parent="ZombieContainer" unique_id=1851170459 instance=ExtResource("3_mx8sn")]
-transform = Transform3D(0.8031711, 0, -0.59574836, 0, 1, 0, 0.59574836, 0, 0.8031711, 56.210514, 0.09811336, -7.393056)
+transform = Transform3D(0.8031711, 0, -0.59574836, 0, 1, 0, 0.59574836, 0, 0.8031711, 56.210514, -0.059181213, -7.393056)
 script = ExtResource("4_ppgk2")
 player_path = NodePath("../../Player")
 
 [node name="Zombie2" parent="ZombieContainer" unique_id=1244634678 instance=ExtResource("3_mx8sn")]
-transform = Transform3D(0.8031711, 0, -0.59574836, 0, 1, 0, 0.59574836, 0, 0.8031711, 56.210514, 0.09811336, -6.171283)
+transform = Transform3D(0.8031711, 0, -0.59574836, 0, 1, 0, 0.59574836, 0, 0.8031711, 56.210514, -0.059181213, -6.171283)
+script = ExtResource("4_ppgk2")
+player_path = NodePath("../../Player")
+
+[node name="Zombie3" parent="ZombieContainer" unique_id=1024356159 instance=ExtResource("3_mx8sn")]
+transform = Transform3D(0.8031711, 0, -0.59574836, 0, 1, 0, 0.59574836, 0, 0.8031711, 56.210514, -0.059181213, -5.696696)
+script = ExtResource("4_ppgk2")
+player_path = NodePath("../../Player")
+
+[node name="Zombie4" parent="ZombieContainer" unique_id=538046195 instance=ExtResource("3_mx8sn")]
+transform = Transform3D(0.8031711, 0, -0.59574836, 0, 1, 0, 0.59574836, 0, 0.8031711, 56.210514, -0.059181213, -4.4749227)
 script = ExtResource("4_ppgk2")
 player_path = NodePath("../../Player")

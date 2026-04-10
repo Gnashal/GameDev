@@ -34,3 +34,6 @@ func _process(delta: float) -> void:
 	
 func _target_in_range():
 	return global_position.distance_to(player.global_position) < ATTACK_RANGE
+	
+func _hit_finished():
+	player.hit()
